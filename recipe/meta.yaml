@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "fluxfootprints" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/inkenbrandt/footprints/archive/v{{ version }}.tar.gz
-  sha256: 088dd3af13e96ce1434483f285d0609769152241fddbe961b9146d1bce33c191
+  sha256: 1d38333b33f793134f86c4f69b7f7d90738224185d67c8f8527fd9a160470140
 
 build:
   noarch: python
